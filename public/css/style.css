@@ -10,6 +10,10 @@ ul.gnb{margin-bottom: 10px;}
 ul.gnb li{float: left;width:calc( 100% / 3);text-align: center;line-height:40px;}
 ul.gnb li:hover{background: skyblue;}
 
+ul.gnb li a{display: block;line-height:40px;}
+
+.router-link-active{background: orange;}
+
 footer.footer{
     background: #ccc;
     padding:20px
